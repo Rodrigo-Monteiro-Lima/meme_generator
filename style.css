@@ -12,6 +12,9 @@
 p { 
   position: absolute;
   z-index: 1;
+  color: white;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
 }
 
 img {
