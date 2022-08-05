@@ -2,6 +2,16 @@
   box-sizing: content-box;
 }
 
+body {
+  margin: 0;
+  background-image: url('imgs/i300302.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #meme-image-container {
   border: 1px solid black;
   height: 450px;
@@ -19,12 +29,13 @@ p {
   color: white;
   font-size: 30px;
   text-shadow: 5px 5px 5px black;
-  margin-top: 300px;
+  margin-top: 345px;
   width: 400px;
   font-family: Impact, Haettenschweiler, Arial, sans-serif;
   font-weight: 700;
   word-wrap: break-word;
   max-height: fit-content;
+  text-align: center;
 }
 
 img {
@@ -46,8 +57,9 @@ button {
 }
 
 #water {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 38px;
+  margin-right: 38px;
+  transition: border 0.3s ease-in-out;
 }
 
 #styles {
@@ -63,6 +75,7 @@ button {
   justify-content: space-between;
   width: 300px;
   margin-top: 10px;
+  margin-left: 45px;
 }
 
 .memes {
@@ -93,4 +106,25 @@ button {
   background-image: url('imgs/meme4.png');
   background-size: cover;
   background-position: center;
+}
+
+#container {
+  border: 1px solid black;
+  background-color: dimgray;
+  padding: 35px;
+  border-radius: 60px;
+  width: 402px;
+}
+
+header {
+  text-align: center;
+}
+
+#fire {
+  margin-left: 43px;
+  transition: border 0.3s ease-in-out;
+}
+
+#eart {
+  transition: border 0.3s ease-in-out;
 }
