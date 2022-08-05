@@ -11,19 +11,21 @@
   <header>
     <h1>Meme Generator</h1>
   </header>
-  <label for="text-input">Texto:
-    <input type="text" id="text-input" name="text-input">
+  <label for="text-input" id="text">Texto:
+    <input type="text" id="text-input" name="text-input" maxlength="60">
   </label>
-  <br>
+  <br><br>
   <label for="meme-insert">Foto:
     <input type="file" name="meme-insert" id="meme-insert" accept="(image/*)">
 
   </label>
   <br><br>
   <div id="meme-image-container">
-    <div id="meme-image">
-      <p id="meme-text"></p>
-    </div>
+    <p id="meme-text"></p>
+    <img src="" id="meme-image"></img>
+  </div>
+  <div id="styles">
+    Estilos customizados:
   </div>
   <script src="script.js"></script>
 </body>

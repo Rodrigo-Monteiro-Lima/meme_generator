@@ -9,16 +9,29 @@
   background-color: white;
 }
 
-p { 
+#text {
+  margin-bottom: 10px;
+}
+
+p {
   position: absolute;
   z-index: 1;
   color: white;
   font-size: 30px;
   text-shadow: 5px 5px 5px black;
+  margin-top: 300px;
+  width: 400px;
+  font-family: Impact, Haettenschweiler, Arial, sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+  max-height: fit-content;
 }
 
 img {
-  position: relative;
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 450px;
 }
 
 #meme-image {
@@ -26,5 +39,58 @@ img {
   width: 400px;
 }
 
+button {
+  margin-top: 10px;
+  width: 60px;
+  height: 25px;
+}
 
+#water {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
+#styles {
+  margin-top: 10px;
+}
+
+#meme-title {
+  margin-top: 10px;
+}
+
+#memes-container {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-top: 10px;
+}
+
+.memes {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+
+#meme-1 {
+  background-image: url('imgs/meme1.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#meme-2 {
+  background-image: url('imgs/meme2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#meme-3 {
+  background-image: url('imgs/meme3.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#meme-4 {
+  background-image: url('imgs/meme4.png');
+  background-size: cover;
+  background-position: center;
+}
